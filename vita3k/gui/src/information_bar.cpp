@@ -376,7 +376,7 @@ static void draw_notice_info(GuiState &gui, HostState &host) {
     if (notice_info_state) {
         const auto POPUP_SIZE = notice_info.empty() ? ImVec2(412.f * SCALE.x, 86.f * SCALE.y) : ImVec2(782.f * SCALE.x, notice_info.size() < 5 ? 22.f * host.dpi_scale + ((80.f * SCALE.y) * notice_info.size() + (10.f * (notice_info.size() - 1) * host.dpi_scale)) : 464.f * SCALE.y);
         const auto POPUP_POS = ImVec2(notice_info.empty() ? display_size.x - (502.f * SCALE.y) : (display_size.x / 2.f) - (POPUP_SIZE.x / 2.f), 56.f * SCALE.y);
-        const auto POPUP_BG_COLOR = notice_info.empty() ? GUI_COLOR_TEXT : GUI_SMOOTH_GRAY;
+        const auto POPUP_BG_COLOR = GUI_COLOR_TEXT_BLACK;
 
         ImGui::PushStyleColor(ImGuiCol_ChildBg, POPUP_BG_COLOR);
         ImGui::PushStyleColor(ImGuiCol_Border, GUI_COLOR_TEXT_BLACK);
