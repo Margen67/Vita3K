@@ -1,95 +1,126 @@
 [submodule "external/better-enums"]
 	path = external/better-enums
-	url = https://github.com/aantron/better-enums
+	url = https://github.com/aantron/better-enums.git
+	shallow = true
 [submodule "external/boost"]
 	path = external/boost
-	url = https://github.com/Vita3K/ext-boost
+	url = https://github.com/Vita3K/ext-boost.git
+	shallow = true
 [submodule "external/capstone"]
 	path = external/capstone
 	url = https://github.com/aquynh/capstone.git
+	shallow = true
 [submodule "external/crypto-algorithms"]
 	path = external/crypto-algorithms
-	url = https://github.com/KorewaWatchful/crypto-algorithms
+	url = https://github.com/KorewaWatchful/crypto-algorithms.git
+	shallow = true
 [submodule "external/dirent"]
 	path = external/dirent
-	url = https://github.com/tronkko/dirent
+	url = https://github.com/tronkko/dirent.git
+	shallow = true
 	branch = v1.23
 [submodule "external/dlmalloc"]
 	path = external/dlmalloc
-	url = https://github.com/Vita3K/dlmalloc
+	url = https://github.com/Vita3K/dlmalloc.git
+	shallow = true
 [submodule "external/elfio"]
 	path = external/elfio
-	url = https://github.com/serge1/ELFIO
+	url = https://github.com/serge1/ELFIO.git
+	shallow = true
 [submodule "external/ffmpeg"]
 	path = external/ffmpeg
 	url = https://github.com/Vita3K/ffmpeg-core.git
+	shallow = true
 [submodule "external/glslang"]
 	path = external/glslang
-	url = https://github.com/KhronosGroup/glslang
+	url = https://github.com/KhronosGroup/glslang.git
+	shallow = true
 [submodule "external/googletest"]
 	path = external/googletest
-	url = https://github.com/google/googletest
+	url = https://github.com/google/googletest.git
+	shallow = true
 [submodule "external/imgui"]
 	path = external/imgui
-	url = https://github.com/ocornut/imgui
+	url = https://github.com/ocornut/imgui.git
+	shallow = true
 [submodule "external/imgui_club"]
 	path = external/imgui_club
-	url = https://github.com/ocornut/imgui_club
+	url = https://github.com/ocornut/imgui_club.git
+	shallow = true
 [submodule "external/libfat16"]
 	path = external/libfat16
-	url = https://github.com/Vita3K/libfat16
+	url = https://github.com/Vita3K/libfat16.git
+	shallow = true
 [submodule "external/nativefiledialog-cmake"]
 	path = external/nativefiledialog-cmake
-	url = https://github.com/Vita3K/nativefiledialog-cmake
+	url = https://github.com/Vita3K/nativefiledialog-cmake.git
+	shallow = true
 [submodule "external/printf"]
 	path = external/printf
-	url = https://github.com/Vita3K/printf
+	url = https://github.com/Vita3K/printf.git
+	shallow = true
 [submodule "external/pugixml"]
 	path = external/pugixml
-	url = https://github.com/zeux/pugixml
+	url = https://github.com/zeux/pugixml.git
+	shallow = true
 [submodule "external/sdl"]
 	path = external/sdl
-	url = https://github.com/Vita3K/sdl
+	url = https://github.com/Vita3K/sdl.git
+	shallow = true
 [submodule "external/sdl2-cmake-scripts"]
 	path = external/sdl2-cmake-scripts
-	url = https://github.com/tcbrindle/sdl2-cmake-scripts
+	url = https://github.com/tcbrindle/sdl2-cmake-scripts.git
+	shallow = true
 [submodule "external/spdlog"]
 	path = external/spdlog
-	url = https://github.com/gabime/spdlog
+	url = https://github.com/gabime/spdlog.git
+	shallow = true
 	branch = v1.x
 [submodule "external/SPIRV-Cross"]
 	path = external/SPIRV-Cross
 	url = https://github.com/KhronosGroup/SPIRV-Cross.git
+	shallow = true
 [submodule "external/stb"]
 	path = external/stb
-	url = https://github.com/nothings/stb
+	url = https://github.com/nothings/stb.git
+	shallow = true
 [submodule "external/unicorn"]
 	path = external/unicorn
 	url = https://github.com/Vita3K/unicorn.git
+	shallow = true
 [submodule "external/vita-toolchain"]
 	path = external/vita-toolchain
 	url = https://github.com/vitasdk/vita-toolchain.git
+	shallow = true
 [submodule "external/VulkanMemoryAllocator"]
 	path = external/VulkanMemoryAllocator
 	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+	shallow = true
 [submodule "external/yaml-cpp"]
 	path = external/yaml-cpp
-	url = https://github.com/jbeder/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+	shallow = true
 [submodule "external/psvpfstools"]
 	path = external/psvpfstools
 	url = https://github.com/Vita3K/psvpfstools.git
+	shallow = true
 [submodule "external/xxHash"]
 	path = external/xxHash
-	url = https://github.com/Cyan4973/xxHash
+	url = https://github.com/Cyan4973/xxHash.git
+	shallow = true
 [submodule "external/dynarmic"]
 	path = external/dynarmic
 	url = https://github.com/Vita3K/dynarmic.git
+	shallow = true
 [submodule "external/fmt"]
 	path = external/fmt
 	url = https://github.com/fmtlib/fmt.git
+	shallow = true
 [submodule "external/LibAtrac9"]
 	path = external/LibAtrac9
-	url = https://github.com/Thealexbarney/LibAtrac9/
+	url = https://github.com/Thealexbarney/LibAtrac9.git
+	shallow = true
 [submodule "external/tracy"]
 	path = external/tracy
 	url = https://github.com/wolfpld/tracy.git
+	shallow = true
