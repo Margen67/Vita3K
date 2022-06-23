@@ -379,7 +379,7 @@ static void draw_notice_info(GuiState &gui, HostState &host) {
         const auto POPUP_BG_COLOR = notice_info.empty() ? GUI_COLOR_TEXT : GUI_SMOOTH_GRAY;
 
         ImGui::PushStyleColor(ImGuiCol_ChildBg, POPUP_BG_COLOR);
-        ImGui::PushStyleColor(ImGuiCol_Border, GUI_COLOR_TEXT);
+        ImGui::PushStyleColor(ImGuiCol_Border, GUI_COLOR_TEXT_BLACK);
         ImGui::PushStyleVar(ImGuiStyleVar_ChildRounding, 10.f * SCALE.x);
         ImGui::PushStyleVar(ImGuiStyleVar_ChildBorderSize, notice_info.empty() ? 0.f : 8.0f * SCALE.x);
         ImGui::SetNextWindowPos(POPUP_POS, ImGuiCond_Always);
